@@ -7,7 +7,7 @@
 
 .header {
     display: flex;
-    background-color: #ddd;
+    background-color: black;
     align-items: center;
     justify-content: flex-start;
     /* flex-direction: column; */
@@ -33,6 +33,7 @@
 
 .div-name-desc {
     flex-basis: 800px;
+    color: white;
 }
 
 .nav-nav {
@@ -40,25 +41,31 @@
     gap: 40px;
 }
 
+
+
 a:link {
-    border: 1px solid black;
-    color: black;
+    border: 1px solid white;
+    color: white;
     text-decoration: none;
     padding: 5px;
     border-radius: 10%;
 }
 
 a:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 a:visited {
-    color: grey;
+    border: 1px solid white;
+    color: rgb(196, 196, 196);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10%;
 }
 
 a:active {
-    color: white;
+    color: lightgrey;
 }
 
 /* .aside-bar {
@@ -89,3 +96,110 @@ a:active {
     display: block;
     width: 200px;
 } */
+
+.aside-bar {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    /* gap: 30px; */
+    background-color: black;
+    border-bottom: 1px solid white;
+
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+
+}
+
+.skills {
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.unordered-list {
+    margin-left: 40px;
+}
+
+.div-bio {
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+}
+
+.button:link {
+    border-radius: 0%;
+}
+
+.div-download {
+    display: flex;
+}
+
+.download {
+    width: 300px;
+    border: 1px solid black;
+}
+
+.download:link {
+    border-radius: 0%;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 67px;
+    gap: 50px;
+}
+
+.footer a:first-child,
+.footer a:nth-child(2),
+.footer a:nth-child(3),
+.footer a:last-child {
+    color: white;
+    border: none;
+}
+
+footer p {
+    color: white;
+}
+
+.footer-div {
+    display: flex;
+}
+
+.div-download a:first-child {
+    color: white;
+}
+
+.div-download a:hover {
+    background-color: white;
+    color: black;
+}
+
+.div-download a:first-child:hover {
+    color: white;
+    background-color: black;
+}
+
+.navigation a:first-child,
+.navigation a:nth-child(2),
+.navigation a:last-child {
+    color: white;
+    border: 1px solid white;
+}
+
+.navigation a:first-child:hover,
+.navigation a:nth-child(2):hover,
+.navigation a:last-child:hover {
+    color: black;
+
+    background-color: white;
+
+}
